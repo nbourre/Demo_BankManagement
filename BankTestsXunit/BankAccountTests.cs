@@ -50,5 +50,21 @@ namespace BankTestsXunit
         }
 
 
+        [Fact]
+        public void Constructor_NegativeAmountShouldThrowArgumentOutOfRange_ShouldFail()
+        {
+            /// TODO : Complétez ce test où on veut que si l'on crée un nouveau compte, 
+            /// il devra y avoir un montant supérieur à zéro
+           
+            // Arrange
+
+            // Act       
+
+            // Assert
+
+        }
+
+
+
     }
 }

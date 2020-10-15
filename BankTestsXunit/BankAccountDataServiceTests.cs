@@ -55,7 +55,6 @@ namespace BankTestsXunit
         }
 
 
-
         private List<Customer> GetSomeCustomers()
         {
             var result = new List<Customer>
