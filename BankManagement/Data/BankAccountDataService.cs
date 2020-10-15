@@ -5,10 +5,14 @@ using System.Text;
 
 namespace BankManagement.Data
 {
-    class BankAccountDataService : IDataService<BankAccount>
+    public class BankAccountDataService : IDataService<BankAccount>
     {
         List<BankAccount> _bankAccounts;
 
+        /// <summary>
+        /// Bogue intentionnel pour des fins de Mock
+        /// </summary>
+        /// <param name="customers"></param>
         public BankAccountDataService(IEnumerable<Customer> customers)
         {
             _bankAccounts = new List<BankAccount>();
